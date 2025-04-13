@@ -72,3 +72,77 @@
     font-size: 14px;
   }
   
+/* Reset & base setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Register form box */
+  .register-box {
+    background-color: #1e1e1e;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .register-box h2 {
+    color: #64b5f6;
+    margin-bottom: 25px;
+  }
+  
+  /* Input fields */
+  .register-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 15px;
+  }
+  
+  .register-box input:focus {
+    border-color: #64b5f6;
+    outline: none;
+  }
+  
+  /* Register button */
+  .register-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #64b5f6;
+    border: none;
+    border-radius: 8px;
+    color: #121212;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-box button:hover {
+    background-color: #42a5f5;
+  }
+  
+  /* Footer text */
+  .register-box p {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+  }
+  
